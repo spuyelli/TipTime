@@ -14,7 +14,7 @@
         android:inputType="numberDecimal"
         android:hint="Cost of Service"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"   />
 
     <TextView
         android:id="@+id/service_question"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="How was the service?"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cost_of_service"/>
+        app:layout_constraintTop_toBottomOf="@+id/cost_of_service"  />
 
     <RadioGroup
         android:id="@+id/tip_options"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/service_question">
+        app:layout_constraintTop_toBottomOf="@+id/service_question" >
 
         <RadioButton
             android:id="@+id/option_twenty_percent"
@@ -49,5 +49,14 @@
             android:layout_height="wrap_content"
             android:text="Okay (15%)"   />
     </RadioGroup>
+
+    <Switch
+        android:id="@+id/round_up_switch"
+        android:text="Round up tip?"
+        android:checked="true"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tip_options"  />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
