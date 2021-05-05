@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Tip Time</string>
     <string name="cost_of_service">Cost of Service</string>
     <string name="how_was_the_service">How was the service?</string>
     <string name="amazing_20">Amazing (20%)</string>
@@ -7,5 +8,5 @@
     <string name="okay_15">Okay (15%)</string>
     <string name="round_up_tip">Round up tip?</string>
     <string name="calculate">Calculate</string>
-    <string name="tip_amount">Tip Amount</string>
+    <string name="tip_amount">Tip Amount: %s</string>
 </resources>
