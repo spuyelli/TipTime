@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.tipResult.text = ""
         binding.calculateButton.setOnClickListener { calculateTip() }
     }
 
