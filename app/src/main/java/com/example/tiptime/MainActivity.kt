@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.calculateButton.setOnClickListener { calculateTip() }
+        binding.tipResult.text = "$"
     }
 
     private fun calculateTip() {
