@@ -19,7 +19,6 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/cost_of_service"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -47,6 +46,7 @@
 
     <TextView
         android:id="@+id/service_question"
+        style="@style/Widget.TipTime.TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -115,6 +115,7 @@
 
     <TextView
         android:id="@+id/tip_result"
+        style="@style/Widget.TipTime.TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tip_amount"
